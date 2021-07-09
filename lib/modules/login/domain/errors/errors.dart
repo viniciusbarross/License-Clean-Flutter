@@ -6,3 +6,12 @@ class ExceptionUser implements Exception {
   @override
   String toString() => 'ExceptionUser(message: $message)';
 }
+
+class ExceptionTokenJwt implements Exception {
+  final String message;
+
+  ExceptionTokenJwt(this.message);
+
+  @override
+  String toString() => 'ExceptionTokenJwt(message: $message)';
+}

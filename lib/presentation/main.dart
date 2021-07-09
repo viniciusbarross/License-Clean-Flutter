@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:license/controller/loginController.dart';
-import 'package:license/view/homepage.dart';
-import 'package:license/view/loginpage.dart';
 
+import 'package:license/presentation/homepage.dart';
+import 'package:license/presentation/loginpage.dart';
+import 'package:license/presentation/provider/loginController.dart';
 import 'package:provider/provider.dart';
 
 void main() {
